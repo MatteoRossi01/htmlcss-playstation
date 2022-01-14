@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header */
+.ms_container-header {
+    background-color: #000;
+
+}
+
+.ms_box-brand {
+    background-color: #000;
+    height: 35px;
+    width: 100%;
+}
+
+.sony-logo {
+    width: 65px;
+}
+
+.fa-chevron-down {
+    padding-top: 3px;
+    padding-left: 4px;
+    color: #999999;
+}
+
+.ms_li-nav {
+    padding: 0px 10px;
+}
+
+.ms_a-nav {
+    font-weight: 600;
+    color: #000;
+}
+
+.ms_btn-accedi {
+    border-radius: 20px;
+}
+
+.fa-search {
+    font-size: 22px;
+}
+/* Header */
