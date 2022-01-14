@@ -64,8 +64,8 @@
     min-height: 676px;
 }
 
-.ms_col-jumbo {
-    width: 380px;
+.ms_col-pbl {
+    width: 355px;
     padding: 10px 0px;
     margin-left: 60px;
     line-height: 26px;
@@ -105,7 +105,7 @@
 
 /* Presentazione prodotti */
 .ms_prodotti {
-    height: 800px;
+    height: 1200px;
 }
 
 #play {
@@ -142,5 +142,41 @@
     box-sizing: border-box;
     border-bottom: 2px solid #0072CE;
 }
-
 /* Presentazione prodotti  */
+
+/* Presentazione gioco */
+.ms_box-pbl-gioco {
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 645px;
+}
+/* Presentazione gioco */
+
+/* Nuove uscite */
+.ms_nuove-uscite {
+    background-color: #1F1F1F;
+}
+
+.ms_container-new {
+    width: 100%;
+}
+
+.ms_col-new {
+    width: 210px;
+    margin: 0px 3px;  
+}
+
+.ms_img-new {
+    width: 210px;
+    height: 180px;
+    border-radius: 15px;
+}
+
+.ms_text-new {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* Nuove uscite */
