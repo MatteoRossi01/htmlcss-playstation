@@ -4,6 +4,14 @@
     padding: 0px;
 }
 
+.ms_orange {
+   background-color: #CD3D0F;
+}
+
+.ms_blue {
+    background-color: #2D64E6;
+}
+
 /* Header */
 .ms_container-header {
     background-color: #000;
@@ -67,9 +75,9 @@
     width: 200px;
 }
 
-.ms_btn-buynow {
+.ms_btn {
+    color: #fff;
     border-radius: 20px;
-    background-color: #CD3D0F;
 }
 
 .ms_container-jumbo-select {
@@ -79,8 +87,7 @@
 
 .ms_col-select {
     width: 200px;
-    margin: 0px 8px;
-    
+    margin: 0px 8px;  
 }
 
 .ms_border-select {
@@ -95,3 +102,45 @@
     padding: 3px 3px;
 }
 /* Jumbotron */
+
+/* Presentazione prodotti */
+.ms_prodotti {
+    height: 800px;
+}
+
+#play {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0072CE;
+}
+
+.ms_text-prodotti {
+    color: #727272;
+    font-size: 15.7px;
+    font-weight: 600;
+}
+
+.ms_container-prodotto {
+    width: 100%;
+}
+
+.ms_box-infoprodotto {
+    margin-top: 220px;
+    width: 460px;
+}
+
+#img-play5 {
+    max-width: 750px;
+}
+
+.ms_col-prodotti {
+    width: 170px;
+    margin: 0px 45px;  
+}
+
+.ms_br-bottom {
+    box-sizing: border-box;
+    border-bottom: 2px solid #0072CE;
+}
+
+/* Presentazione prodotti  */
