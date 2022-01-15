@@ -6,10 +6,22 @@
 
 .ms_orange {
    background-color: #CD3D0F;
+   color: #fff;
 }
 
 .ms_blue {
     background-color: #2D64E6;
+    color: #fff;
+}
+
+.ms_white {
+    background-color: #F5F5F5;
+    color: #000;
+}
+
+.ms_gray {
+    background-color: #D9DADC;
+    color: #2D64E6;
 }
 
 /* Header */
@@ -76,8 +88,8 @@
 }
 
 .ms_btn {
-    color: #fff;
     border-radius: 20px;
+    display: block;
 }
 
 .ms_container-jumbo-select {
@@ -151,6 +163,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 645px;
+    margin-top: 30px;
 }
 /* Presentazione gioco */
 
@@ -174,9 +187,64 @@
     border-radius: 15px;
 }
 
+.ms_row-nu {
+    width: 500px;
+}
+
 .ms_text-new {
     color: #fff;
     font-size: 16px;
     font-weight: 600;
 }
 /* Nuove uscite */
+
+/* Esplora prodotti */
+.ms_img-esplora {
+    width: 400px;
+}
+
+.ms_col-esplora {
+    width: 430px;
+}
+/* Esplora prodotti */
+
+/* Play plus */
+.ms_plus {
+    background-color: #BEBCBB;
+    margin-top: 60px;
+    height: 450px;
+}
+
+.ms_logo-plus {
+    width: 350px;
+}
+
+.ms_img-plus {
+    width: 615px;
+    margin-left: 90px;
+}
+/* Play plus */
+
+/* Box sconti */
+.ms_col-sconti {
+    width: 400px;
+    padding-bottom: 70px;
+}
+/* Box sconti */
+
+/* Play now */
+.ms_now {
+    background-color: #161C3B;
+    margin-top: 60px;
+    height: 450px;
+}
+
+.ms_logo-now {
+    width: 350px;
+}
+
+.ms_img-now {
+    width: 615px;
+    margin-left: 90px;
+}
+/* Play now */
