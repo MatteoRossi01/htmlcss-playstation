@@ -248,3 +248,34 @@
     margin-left: 90px;
 }
 /* Play now */
+
+/* Social */
+.ms_col-social {
+    width: 130px;
+    padding-bottom: 70px;
+}
+/* Social */
+
+/* Footer */
+.ms_footer {
+    height: 500px;
+    background-color: #00439C;
+}
+
+.ms_box-footer {
+    height: 100%;
+    width: 45%;
+}
+
+.ms_logo-footer {
+    width: 80px;
+}
+
+.ms_logo-sie {
+    width: 130px;
+}
+
+.ms_col-footer-text {
+    width: 480px;
+}
+/* Footer */
