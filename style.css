@@ -54,6 +54,8 @@
 
 .ms_li-nav {
     padding: 0px 10px;
+    position: relative;
+    z-index: 80;
 }
 
 .ms_a-nav {
@@ -142,6 +144,11 @@
     justify-content: space-around;
 }
 
+.ms_box-intestazione {
+    position: relative;
+    z-index: 90;
+}
+
 #play {
     font-size: 14px;
     font-weight: 600;
@@ -150,6 +157,8 @@
 
 .ms_container-nav-prod {
     width: 100%;
+    position: relative;
+    z-index: 90;
 }
 
 .ms_text-prodotti {
@@ -166,10 +175,13 @@
     margin-top: 250px;
     width: 35%;
     padding-left: 50px;
+    position: relative;
+    z-index: 90;
 }
 
 .ms_box-img-play5 {
     width: 70%;
+    cursor: pointer;
 }
 
 #img-play5 {
@@ -398,6 +410,12 @@
     /* Header */
     .ms_a-nav {
         font-size: 12.5px;
+    }
+
+    .ms_navbar-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
     /* Header */
 
