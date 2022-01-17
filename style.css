@@ -255,7 +255,11 @@
 }
 
 .ms_row-nu {
-    width: 500px;
+    width: 100%;
+}
+
+.ms_widht-row {
+    width: 100%;
 }
 
 .ms_text-new {
@@ -294,6 +298,10 @@
 .ms_col-sconti {
     width: 30%;
     padding-bottom: 70px;
+}
+
+.ms_row-sconti {
+    margin-left: 20px;
 }
 /* Box sconti */
 
@@ -696,7 +704,7 @@
 
     /* Jumbotron */
     .ms_jumbotron {
-        height: 1050px;
+        height: 1180px;
     }
 
     .row_jumbo-sm {
@@ -704,7 +712,7 @@
     }
 
     .ms_col-pbl {
-        width: 675px;
+        width: 65%;
         margin-left: 30px;
     }
 
@@ -826,5 +834,89 @@
         height: 20%;
     }
     /* Footer */
+}
+
+@media only screen and (max-width: 470px) {
+
+    /* Box selezione gioco */
+    .ms_col-select {
+        width: 50%;
+        margin: 0px 0px;
+    }
+    /* Box selezione gioco */
+
+    /* Box presentazione gioco */
+    .ms_box-pbl-gioco {
+        height: 620px;
+    }
+
+    .ms_col-pbl-gioco {
+        width: 80%;
+        margin-left: 30px;
+    }
+    /* Box presentazione gioco */
+
+    /* Play plus */
+    .ms_row-plus {
+        height: 273px;
+        width: 98%;
+        margin-right: 20px;
+    }
+
+    .ms_now {
+        height: 285px;
+    }
+    /* Play plus */
+
+}
+
+@media only screen and (max-width: 360px) {
+
+    /* Box selezione gioco */
+    .ms_col-select {
+        width: 50%;
+        height: 60%;
+        margin: 0px 0px;
+    }
+
+    .ms_jumbotron {
+        height: 1030px;
+    }
+    /* Box selezione gioco */
+
+    /* Jumbotron */
+    .ms_returnal {
+        width: 250px;
+    }
+    /* Jumbotron */
+
+    /* Box presentazione gioco */
+    .ms_box-pbl-gioco {
+        height: 650px;
+    }
+    /* Box presentazione gioco */
+
+    /* Play plus */
+    .ms_row-plus {
+        height: 340px;
+        width: 98%;
+        margin-right: 20px;
+    }
+
+    .ms_logo-plus{
+        width: 200PX;
+    }
+
+    .ms_now {
+        height:380px;
+    }
+    /* Play plus */
+
+    /* Footer */
+    .ms_footer {
+        height: 1100px;
+    }
+    /* Footer */
+
 }
 /* Responsive */
